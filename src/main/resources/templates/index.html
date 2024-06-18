@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Key Word</title>
+</head>
+<body>
+    <h3>Type key word to search on google</h3>
+    <form method="post" action="/">
+        <input type="text" id="key-word" th:field="${inputDTO.keyWord}">
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
